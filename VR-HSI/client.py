@@ -1,4 +1,7 @@
 # test_client.py
+# local PC command: uvicorn server:app --host 0.0.0.0 --port 8000
+# local network command: ws://10.150.52.215:8000/ws
+# see apis running local command: ps aux | grep uvicorn 
 
 import asyncio
 import websockets
